@@ -1,0 +1,65 @@
+* {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+html {
+    background-color: #595959;
+}
+header {
+    background-image: url(../images/inspector_clouseau.jpg);
+    background-repeat: no-repeat;
+    max-width: 960px;
+    height: 250px;
+    margin: 0 auto;
+}
+header h1 {
+    font-family: 'Old Standard TT', serif;
+    color: #fff;
+    padding: 1rem 0 0 1rem;
+    text-shadow: 2px 2px 5px #000;
+}
+header h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 22px;
+    color: #fff;
+    padding: 1rem 0 0 1rem;
+    text-shadow: 2px 2px 5px #000;
+}
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #000;
+}
+h1 {
+    color: #fff;
+    margin: 0;
+    padding: 1rem 0 0 1rem;
+    font-weight: 600;
+}
+h2 {
+    color: #e8a2b6;
+    margin: 0;
+    padding: 1rem 0 0 1rem;
+    font-weight: 600;
+}
+p {
+    margin: 0;
+    padding: 1rem;
+    font-size: 16px;
+    color: #fff;
+}
+li {
+    color: #fff;
+}
+footer {
+    width: 960px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: #e8a2b6;
+    text-align: center;
+}
+footer p {
+    font-size: 14px;
+    padding-top: 9px;
+    color: #000;
+}
