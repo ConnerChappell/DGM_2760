@@ -3,7 +3,7 @@
     font-weight: 400;
 }
 header {
-    background-image: url(../images/numbers.jpg);
+    /* background-image: url(../images/numbers.jpg); */
     background-repeat: no-repeat;
     max-width: 960px;
     height: 2500px;
