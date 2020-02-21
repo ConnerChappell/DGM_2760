@@ -1,3 +1,6 @@
+document.querySelector('header > h1').innerText = 'Guessing Game'
+document.querySelector('header > h2').innerText = 'Loops'
+
 // pick a random number between 0 and 16
 let correctNumber = Math.floor(Math.random() * 15)
 
