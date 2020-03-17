@@ -1,60 +1,56 @@
 document.querySelector('header > h1').innerText = 'Fortune Teller'
 document.querySelector('header > h2').innerText = 'Switch Statements'
 
-// pick a random number between 0 and 16
-let correctNumber = Math.floor(Math.random() * 15)
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
+  }
 
-let guessed = false
-let totalGuesses = 0
-let gamerGuess = 0
-correctNumber += 1
+let month = (getRandomIntInclusive(1, 12))
 
-console.log(`The correct number is ${correctNumber}`)
-
-function evalGuess() {
-    totalGuesses++ //totalGuesses = totalGuesses + 1
-    gamerGuess = document.querySelector('#guess').value
-
-    const feedback = document.querySelector('#feedback')
-
-    if(gamerGuess == correctNumber) {
-        console.log('gamerGuess is equal to correctNumber')
-        feedback.innerText = 'You are Correct!'
-        giveAward()
-    } else if (gamerGuess > correctNumber && gamerGuess < 16) {
-        feedback.innerText = 'Your guess was too high, try again'
-    } else if (gamerGuess < correctNumber && gamerGuess > 0) {
-        feedback.innerText = 'Your guess was too low, try again'
-    } else {
-        feedback.innerText = 'Please choose a number between 1 and 15 and try again'
-        totalGuesses -= 1
-    }
-
-    document.querySelector('#attempts').innerText = totalGuesses
-}
-
-function giveAward() {
-    console.log('Congratulations!')
-    let imagePath = '#'
-    switch(totalGuesses) {
+function getMonthName(month) {
+    let name
+    switch (month) {
         case 1:
+            name = 'January'
+            break;
         case 2:
+            name = 'February'
+            break;
         case 3:
-            imagePath = 'images/blue_ribbon.png'
+            name = 'March'
             break;
         case 4:
+            name = 'April'
+            break;
         case 5:
+            name = 'May'
+            break;
         case 6:
-            imagePath = 'images/red_ribbon.png'
+            name = 'June'
+            break;
+        case 7:
+            name = 'July'
+            break;
+        case 8:
+            name = 'August'
+            break;
+        case 9:
+            name = 'September'
+            break;
+        case 10:
+            name = 'October'
+            break;
+        case 11:
+            name = 'November'
+            break;
+        case 12:
+            name = 'December'
             break;
         default:
-            imagePath = 'images/yellow_ribbon.png'
+            name = 'Not a month'
+            break;
     }
-
-    const awardImage = document.createElement('img') // creates an <img> element
-    awardImage.setAttribute('src', imagePath)
-    const ribbon = document.querySelector('#ribbon')
-
-    ribbon.appendChild(awardImage)
-    // only append child if ribbon element does not have any child nodes yet
+    return name
 }
