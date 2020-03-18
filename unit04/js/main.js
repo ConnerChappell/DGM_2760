@@ -7,8 +7,6 @@ function getRandomIntInclusive(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
   }
 
-let month = (getRandomIntInclusive(1, 12))
-
 function getMonthName(month) {
     let name
     switch (month) {
@@ -54,3 +52,38 @@ function getMonthName(month) {
     }
     return name
 }
+
+function getFortune(fate) {
+    let message
+    switch (fate) {
+        case 1:
+            message = 'travel to a far off destination'
+            break;
+        case 2:
+            message = 'come into large sums of money'
+            break;
+        case 3:
+            message = 'get news that will make your blood run cold'
+            break;
+        case 4:
+            message = 'run into a long lost relative'
+            break;
+        case 5:
+            message = 'meet people totally outside your circle of friends; beware of their intentions'
+            break;
+        default:
+            message = 'Some sort of error occurred'
+            break;
+    }
+    return message
+}
+
+let fate = getRandomIntInclusive(1, 5)
+let day = getRandomIntInclusive(1, 30)
+let month = getRandomIntInclusive(1, 12)
+const monthName = getMonthName(month)
+const fortuneMessage = getFortune(fate)
+
+const fortuneRevealed = `On ${monthName} ${day}, you will ${fortuneMessage}`
+
+document.querySelector('#fortune').innerText = fortuneRevealed

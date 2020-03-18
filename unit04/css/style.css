@@ -3,7 +3,7 @@
     font-weight: 400;
 }
 header {
-    background-image: url();
+    background-image: url(../images/fortune_teller.jpg);
     background-repeat: no-repeat;
     max-width: 960px;
     height: 200px;
@@ -54,39 +54,8 @@ footer p {
     padding-top: 9px;
 }
 
-/* Game Section Styles */
-/* #flex {
-    display: flex;
-    justify-content: space-evenly;
-    height: 225px;
-    padding-bottom: 2rem;
-    background-color: #d3d3d3;
-}
-#flex h2 {
-    text-align: center;
-    padding: 0;
-}
-#guess {
-    margin-top: .5rem;
+/* Fortune Styles */
+#fortune {
+    font-family: 'Henny Penny', cursive;
     font-size: 1.5rem;
-    width: 120px;
-    text-align: center;
-    border: 1px solid #000;
 }
-button {
-    margin-top: 0;
-    height: 30px;
-    width: 75px;
-    font-size: 1rem;
-    color: #fff;
-    font-weight: 600;
-    background-color: #0EBFE9;
-    border-radius: 5px;
-}
-#attempts {
-    font-size: 2rem;
-    text-align: center;
-}
-#feedback {
-    text-align: center;
-} */
