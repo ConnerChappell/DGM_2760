@@ -63,7 +63,7 @@ footer p {
     width: 250px;
     font-size: 1rem;
     border-radius: 5px;
-    margin: .5rem;
+    margin: .25rem;
     padding: .25rem;
 }
 #manipulate_trees button:hover {
@@ -77,9 +77,12 @@ footer p {
 #tree_list h2 {
     padding-left: 0;
 }
+#displayResults {
+    background-color: #f2f2f2;
+    padding-left: 1rem;
+}
 main div#displayResults span { 
     font-weight: 600;
-    font-size: 1.5rem;
 }
 #error {
     color: red;
