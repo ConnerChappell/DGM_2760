@@ -22,7 +22,6 @@ header h2 {
 main {
     max-width: 960px;
     margin: 0 auto;
-    background-color: #f2f2f2;
 }
 h1 {
     color: #3CB371;
@@ -48,6 +47,7 @@ footer {
     color: #fff;
     background-color: #3CB371;
     text-align: center;
+    clear: both;
 }
 footer p {
     font-size: 14px;
@@ -55,4 +55,34 @@ footer p {
 }
 
 /* Arborist Styles */
-main div#displayResults span { color: red;}
+#manipulate_trees {
+    float: left;
+    width: 50%;
+}
+#manipulate_trees button {
+    width: 250px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: .5rem;
+    padding: .25rem;
+}
+#manipulate_trees button:hover {
+    background-color: #3CB371;
+    color: #fff;
+}
+#tree_list {
+    float: left;
+    width: 50%;
+}
+#tree_list h2 {
+    padding-left: 0;
+}
+main div#displayResults span { 
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+#error {
+    color: red;
+    font-weight: 600;
+    margin-top: 1rem;
+}

@@ -16,3 +16,25 @@ const listTrees = () => {
 } 
 
 listTrees()
+
+// Add a redwood to the end
+document.querySelector('#add_redwood').onclick = () => {
+    trees.push('redwood')
+    listTrees()
+}
+
+// Add a cherry to the start
+document.querySelector('#add_cherry').onclick = () => {
+    trees.unshift('Cherry')
+    listTrees()
+}
+
+// Remove the first tree
+document.querySelector('#remove_tree1').onclick = () => {
+    if (trees.length > 0) {
+        trees.shift()
+        listTrees()
+    } else {
+        errorElement.textContent = 'Cannot remove the first tree because there are not enough trees in the list'
+    }
+}
