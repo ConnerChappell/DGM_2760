@@ -12,7 +12,7 @@ const listTrees = () => {
     trees.forEach(tree => {
         treeList += `${tree} <br>`
     })
-    displayResults.innerHTML = `${treeList} <span>${trees.length} elements long</span>`
+    displayResults.innerHTML = `${treeList} <span>${trees.length} trees in the list</span>`
 } 
 
 listTrees()
@@ -36,5 +36,45 @@ document.querySelector('#remove_tree1').onclick = () => {
         listTrees()
     } else {
         errorElement.textContent = 'Cannot remove the first tree because there are not enough trees in the list'
+    }
+}
+
+// Remove the second tree
+document.querySelector('#remove_tree2').onclick = () => {
+    if (trees.length > 1) {
+        trees.splice(1, 1)
+        listTrees()
+    } else {
+        errorElement.textContent = 'Cannot remove the second tree because there are not enough trees in the list'
+    }
+}
+
+// Remove the last tree
+document.querySelector('#remove_treeLast').onclick = () => {
+    if (trees.length > 0) {
+        trees.pop()
+        listTrees()
+    } else {
+        errorElement.textContent = 'Cannot remove the last tree because there are not enough trees in the list'
+    }
+}
+
+// Sort the trees A-Z
+document.querySelector('#sortTrees').onclick = () => {
+    if (trees.length > 1) {
+        trees.sort()
+        listTrees()
+    } else {
+        errorElement.textContent = 'Cannot sort the trees because there are not enough trees in the list'
+    }
+}
+
+// Make all trees lowercase
+document.querySelector('#lowerTrees').onclick = () => {
+    if (trees.length > 0) {
+        trees.toLowerCase()
+        listTrees()
+    } else {
+        errorElement.textContent = 'Cannot make the trees lowercase because there are no trees in the list'
     }
 }

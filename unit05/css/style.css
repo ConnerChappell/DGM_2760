@@ -79,10 +79,11 @@ footer p {
 }
 #displayResults {
     background-color: #f2f2f2;
-    padding-left: 1rem;
+    padding: 1rem;
 }
 main div#displayResults span { 
     font-weight: 600;
+    border-top: 1px solid #000;
 }
 #error {
     color: red;
