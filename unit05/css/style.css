@@ -53,3 +53,6 @@ footer p {
     font-size: 14px;
     padding-top: 9px;
 }
+
+/* Arborist Styles */
+main div#displayResults span { color: red;}
