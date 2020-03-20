@@ -70,11 +70,27 @@ document.querySelector('#sortTrees').onclick = () => {
 }
 
 // Make all trees lowercase
-document.querySelector('#lowerTrees').onclick = () => {
-    if (trees.length > 0) {
-        trees.toLowerCase()
-        listTrees()
+
+
+
+
+
+
+
+// Name of tree number 3
+document.querySelector('#showName3').onclick = () => {
+    if (trees.length > 2) {
+        errorElement.innerHTML = `Tree number 3 is ${trees[2]}`
     } else {
-        errorElement.textContent = 'Cannot make the trees lowercase because there are no trees in the list'
+        errorElement.textContent = 'Cannot dispaly tree number 3 because there are not enough trees in the list'
+    }
+}
+
+// Name of tree number 4
+document.querySelector('#showName4').onclick = () => {
+    if (trees.length > 3) {
+        errorElement.innerHTML = `Tree number 4 is ${trees[3]}`
+    } else {
+        errorElement.textContent = 'Cannot dispaly tree number 4 because there are not enough trees in the list'
     }
 }
