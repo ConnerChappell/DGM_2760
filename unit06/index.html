@@ -16,7 +16,7 @@
         </header>
 
         <main>
-            <h1>Nonsense Story</h1>
+            <h1>The Brave Swordsman</h1>
             <h2>What I learned:</h2>
             <ul class="objectives">
                 <li>Extract text content from html elements</li>
@@ -27,6 +27,33 @@
                 <li>Change a string to all lower case</li>
                 <li>Wild Character Substitution</li>
             </ul>
+
+            <h1>Instructions:</h1>
+            <p>Please fill in the 3 areas to create your own story</p>
+
+            <section>
+                <div>
+                    <h2>Three Nouns</h2>
+                    <textarea id="nouns"></textarea>
+                </div>
+
+                <div>
+                    <h2>Three Adjectives</h2>
+                    <textarea id="adjectives"></textarea>
+                </div>
+
+                <div>
+                    <h2>Three Verbs</h2>
+                    <textarea id="verbs"></textarea>
+                </div>
+            </section>
+
+            <div id="results">
+                <p id="story"></p>
+            </div>
+
+            <button onclick="tellStory()">Tell the Story</button>
+            <p id="story"></p>
 
         </main>
 
