@@ -55,3 +55,37 @@ footer p {
 }
 
 /* Story Styles */
+section {
+    display: flex;
+    justify-content: space-around;
+}
+section h2 {
+    padding-left: 0;
+}
+textarea {
+    margin-bottom: 1rem;
+    width: 250px;
+    height: 150px;
+}
+#story {
+    line-height: 1.5rem;
+}
+span {
+    color: #3f85c7;
+    font-weight: bold;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #3f85c7;
+    color: white;
+    border: 2px solid #b2b3b3;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: #fff;
+    color: #3f85c7;
+    transition-duration: .4s;
+}
