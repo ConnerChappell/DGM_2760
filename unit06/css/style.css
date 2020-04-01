@@ -70,7 +70,7 @@ textarea {
 #story {
     line-height: 1.5rem;
 }
-p#story span {
+#story span {
     color: #3f85c7;
     font-weight: bold;
 }
