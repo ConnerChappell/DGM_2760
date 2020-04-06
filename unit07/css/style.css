@@ -1,0 +1,57 @@
+* {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+header {
+    background-image: url(../images/tower.jpg);
+    background-repeat: no-repeat;
+    max-width: 960px;
+    height: 200px;
+    margin: 0 auto;
+}
+header h1 {
+    color: #fff;
+    padding: 1rem 0 0 1rem;
+    text-shadow: 2px 2px 5px #000;
+}
+header h2 {
+    color: #fff;
+    padding: 1rem 0 0 1rem;
+    text-shadow: 2px 2px 5px #000;
+}
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+h1 {
+    color: #3f85c7;
+    margin: 0;
+    padding: 1rem 0 0 1rem;
+    font-weight: 600;
+}
+h2 {
+    color: #b2b3b3;
+    margin: 0;
+    padding: 1rem 0 0 1rem;
+    font-weight: 600;
+}
+p {
+    margin: 0;
+    padding: 1rem;
+    font-size: 16px;
+}
+footer {
+    width: 960px;
+    height: 35px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #3f85c7;
+    text-align: center;
+    clear: both;
+}
+footer p {
+    font-size: 14px;
+    padding-top: 9px;
+}
+
+/* Pizza Styles */
