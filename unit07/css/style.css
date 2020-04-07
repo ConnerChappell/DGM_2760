@@ -3,7 +3,7 @@
     font-weight: 400;
 }
 header {
-    background-image: url(../images/tower.jpg);
+    background-image: url(../images/pizza.jpg);
     background-repeat: no-repeat;
     max-width: 960px;
     height: 200px;
@@ -24,13 +24,13 @@ main {
     margin: 0 auto;
 }
 h1 {
-    color: #3f85c7;
+    color: #ce333d;
     margin: 0;
     padding: 1rem 0 0 1rem;
     font-weight: 600;
 }
 h2 {
-    color: #b2b3b3;
+    color: #3678aa;
     margin: 0;
     padding: 1rem 0 0 1rem;
     font-weight: 600;
@@ -45,7 +45,7 @@ footer {
     height: 35px;
     margin: 0 auto;
     color: #fff;
-    background-color: #3f85c7;
+    background-color: #3678aa;
     text-align: center;
     clear: both;
 }
@@ -55,3 +55,24 @@ footer p {
 }
 
 /* Pizza Styles */
+input {
+    margin: .5rem .5rem 0 1rem;
+}
+button {
+    display: block;
+    padding: 1rem;
+    margin: .5rem .5rem 0 1rem;
+    background-color: #ce333d;
+    color: white;
+    border: 1px solid #ce333d;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: #fff;
+    color: #ce333d;
+    transition-duration: .4s;
+}
+#feedback {
+    padding: .5rem 0 1rem 1rem;
+}
