@@ -3,7 +3,7 @@
     font-weight: 400;
 }
 header {
-    background-image: url(../images/pizza.jpg);
+    background-image: url(../images/grantstomb.jpg);
     background-repeat: no-repeat;
     max-width: 960px;
     height: 200px;
@@ -24,13 +24,13 @@ main {
     margin: 0 auto;
 }
 h1 {
-    color: #ce333d;
+    color: #a2a6a9;
     margin: 0;
     padding: 1rem 0 0 1rem;
     font-weight: 600;
 }
 h2 {
-    color: #3678aa;
+    color: #1b221d;
     margin: 0;
     padding: 1rem 0 0 1rem;
     font-weight: 600;
@@ -45,7 +45,7 @@ footer {
     height: 35px;
     margin: 0 auto;
     color: #fff;
-    background-color: #3678aa;
+    background-color: #a2a6a9;
     text-align: center;
     clear: both;
 }
@@ -55,3 +55,26 @@ footer p {
 }
 
 /* Grant's Tomb Styles */
+#stem {
+    padding: .5rem 0 .5rem 2rem;
+    font-size: 1.5rem;
+}
+button{
+    display: block;
+    margin: .5rem 0 .5rem 2rem;
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: #fff;
+    border: 1px solid #1b221d;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #1b221d;
+    color: #fff;
+    transition-duration: .4s;
+}
+#feedback {
+    font-size: 1.5rem;
+    color: red;
+    padding: .5rem 0 1rem 2rem;
+}
