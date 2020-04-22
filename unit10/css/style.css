@@ -1,0 +1,80 @@
+* {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+header {
+    background-image: url(../images/grantstomb.jpg);
+    background-repeat: no-repeat;
+    max-width: 960px;
+    height: 200px;
+    margin: 0 auto;
+}
+header h1 {
+    color: #fff;
+    padding: 1rem 0 0 1rem;
+    text-shadow: 2px 2px 5px #000;
+}
+header h2 {
+    color: #fff;
+    padding: 1rem 0 0 1rem;
+    text-shadow: 2px 2px 5px #000;
+}
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+h1 {
+    color: #a2a6a9;
+    margin: 0;
+    padding: 1rem 0 0 1rem;
+    font-weight: 600;
+}
+h2 {
+    color: #1b221d;
+    margin: 0;
+    padding: 1rem 0 0 1rem;
+    font-weight: 600;
+}
+p {
+    margin: 0;
+    padding: 1rem;
+    font-size: 16px;
+}
+footer {
+    width: 960px;
+    height: 35px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #a2a6a9;
+    text-align: center;
+    clear: both;
+}
+footer p {
+    font-size: 14px;
+    padding-top: 9px;
+}
+
+/* Grant's Tomb Styles */
+#stem {
+    padding: .5rem 0 .5rem 2rem;
+    font-size: 1.5rem;
+}
+button{
+    display: block;
+    margin: .5rem 0 .5rem 2rem;
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: #fff;
+    border: 1px solid #1b221d;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #1b221d;
+    color: #fff;
+    transition-duration: .4s;
+}
+#feedback {
+    font-size: 1.5rem;
+    color: red;
+    padding: .5rem 0 1rem 2rem;
+}
