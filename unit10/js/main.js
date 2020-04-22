@@ -3,7 +3,7 @@ document.querySelector('header > h2').textContent = 'Find Your Next Stay'
 
 async function getHotelData() {
     try {
-        const response = await fetch('hotel.json')
+        const response = await fetch("hotel.json")
         return await response.json()
     } catch (error) {
         console.error(error)
