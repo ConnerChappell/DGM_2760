@@ -24,7 +24,7 @@ main {
     margin: 0 auto;
 }
 h1 {
-    color: #a2a6a9;
+    color: #e94c61;
     margin: 0;
     padding: 1rem 0 0 1rem;
     font-weight: 600;
@@ -48,34 +48,42 @@ footer {
     width: 960px;
     height: 35px;
     margin: 0 auto;
-    color: #fff;
-    background-color: #a2a6a9;
+    background-color: #e94c61;
     text-align: center;
     clear: both;
 }
 footer p {
+    color: #fff;
     font-size: 14px;
     padding-top: 9px;
 }
 
 /* Hotel Booking Styles */
-#stem {
-    padding: .5rem 0 .5rem 2rem;
-    font-size: 1.5rem;
+h3 {
+    color: #e94c61;
 }
 button{
     margin: .5rem .5rem .5rem 0;
     padding: .5rem;
     font-size: 1rem;
     background-color: #fff;
-    border: 1px solid #1b221d;
+    color: #e94c61;
+    border: 1px solid #e94c61;
     border-radius: 4px;
 }
 button:hover {
-    background-color: #1b221d;
+    background-color: #e94c61;
     color: #fff;
     transition-duration: .4s;
 }
+p {
+    font-weight: 600;
+    color: #e94c61;
+}
+span {
+    color: #000;
+}
 #picture {
     width: 400px;
+    border-radius: 10px;
 }
