@@ -6,7 +6,7 @@
             "gym": "Yes",
             "roomTypes": ["Four Seasons Room", "Premier Room", "Deluxe Room", "Suite"],
             "address": "99 Union St, Seattle, WA",
-            "picture": "room1.jpg"
+            "picture": "images/room1.jpg"
         },
         {
             "name": "The Broadmoor",
@@ -14,15 +14,15 @@
             "gym": "Yes",
             "roomTypes": ["Classic Room", "Premier Room", "Superior Room", "Jumior Suite", "Cottage Suite"],
             "address": "1 Lake Ave, Colorado Springs, CO",
-            "picture": "room2.jpg"
+            "picture": "images/room2.jpg"
         },
         {
-            "name": "The Ritz-Carlton",
+            "name": "Ritz Carlton",
             "rooms": "123",
             "gym": "Yes",
             "roomTypes": ["Deluxe Guest Room", "Deluxe Queen Room", "Corner King", "Junior Suite", "Junior Suite Queen", "Executive Suite", "Ritz-Carlton Suite"],
             "address": "900 W Olympic Blvd, Los Angeles, CA",
-            "picture": "room3.jpg"
+            "picture": "images/room3.jpg"
         }
     ]
 }

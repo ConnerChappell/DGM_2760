@@ -76,4 +76,6 @@ button:hover {
     color: #fff;
     transition-duration: .4s;
 }
-
+#picture {
+    width: 400px;
+}

@@ -14,12 +14,12 @@ let hotelData = {}
 getHotelData().then(data => hotelData = data)
 
 document.querySelector("#fourSeasons").addEventListener("click", hotelInfo)
-document.querySelector("#broadmoor").addEventListener("click", hotelInfo)
-document.querySelector("#ritz").addEventListener("click", hotelInfo)
+document.querySelector("#theBroadmoor").addEventListener("click", hotelInfo)
+document.querySelector("#ritzCarlton").addEventListener("click", hotelInfo)
 
 function hotelInfo(event) {
     let hotelChoice = hotelData.hotels.find(hotel => {
-        return event.target.id === hotel.name.toLowerCase()
+        return event.target.id.toLowerCase() === hotel.name.toLowerCase().replace(/\s/g, '')
     })
     document.querySelector("#hotelName").textContent = `${hotelChoice.name} Hotel`
     document.querySelector("#address").textContent = hotelChoice.address
