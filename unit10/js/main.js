@@ -21,7 +21,7 @@ function hotelInfo(event) {
     let hotelChoice = hotelData.hotels.find(hotel => {
         return event.target.id === hotel.name.toLowerCase()
     })
-    document.querySelector('#hotelName').textContent = `${hotelChoice.name} Hotel`
+    document.querySelector("#hotelName").textContent = `${hotelChoice.name} Hotel`
     document.querySelector("#address").textContent = hotelChoice.address
     document.querySelector("#rooms").textContent = hotelChoice.rooms
     document.querySelector("#gym").textContent = hotelChoice.gym
